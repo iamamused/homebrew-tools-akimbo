@@ -6,7 +6,7 @@ class ToolsAkimbo < Formula
     url "https://github.com/iamamused/homebrew-tools-akimbo/raw/1.0.0/phar/tools-akimbo.phar"
 
     # get sha: shasum -a 256 tools-akimbo.phar
-    sha256 "504a803617c935d056829753bcbb719d29c85ba6a3d1a347c9d37a5db0eb936e"
+    sha256 "${SHA}"
 
     depends_on "php"
 
