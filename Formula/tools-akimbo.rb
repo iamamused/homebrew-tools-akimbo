@@ -8,7 +8,7 @@ class ToolsAkimbo < Formula
     # get sha: shasum -a 256 tools-akimbo.phar
     sha256 "504a803617c935d056829753bcbb719d29c85ba6a3d1a347c9d37a5db0eb936e"
 
-    depends_on :php
+    depends_on "php"
 
     def install
         bin.install "tools-akimbo.phar" => "tools-akimbo"
